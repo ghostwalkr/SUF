@@ -17,3 +17,5 @@ To use the script just clone the repository and execute.
 
 Usage: suf.sh target userfile
 
+TODO:
+Let a list of IP addresses be used.
