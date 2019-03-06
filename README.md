@@ -15,9 +15,9 @@ To use the script just clone the repository and execute.
 1. git clone https://github.com/ghostwalkr/SUF.git
 2. chmod -R 744 SUF
 3. cd SUF
-4. ./suf.sh target userfile
+4. ./suf.sh
 
-Usage: suf.sh target userfile
+Usage: suf.sh
 
 ### TODO:
-Let a list of IP addresses be used.
+Check if target is vulnerable to exploit
