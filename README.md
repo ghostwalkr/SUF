@@ -19,6 +19,7 @@ To use the script just clone the repository and execute.
 4. ./suf.sh
 
 ![suf demo](https://media.giphy.com/media/1j9frMjJlzbrIpPnp1/giphy.gif)
+
 Usage: suf.sh
 
 ### TODO:
