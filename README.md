@@ -1,6 +1,7 @@
 
 # SSH Username Finder
-SSH User Finder is a script to enumerate SSH usernames by exploiting CVE-2018-15473. It only works on OpenSSH versions less than 7.7. Link to exploit code: https://www.exploit-db.com/exploits/45939 Dependencies: 
+SSH User Finder is a script to enumerate SSH usernames by exploiting CVE-2018-15473. It only works on OpenSSH versions less than 7.7. Link to exploit code: https://www.exploit-db.com/exploits/45939 
+### Dependencies: 
 python, 
 python-argparse, 
 python-logging, 
