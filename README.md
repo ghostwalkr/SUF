@@ -20,8 +20,6 @@ To use the script just clone the repository and execute.
 
 ![suf demo](https://media.giphy.com/media/1j9frMjJlzbrIpPnp1/giphy.gif)
 
-Usage: suf.sh
-
 ### TODO:
 Check if target is vulnerable to exploit
 Make "prettier" output?
