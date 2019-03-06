@@ -22,3 +22,4 @@ Usage: suf.sh
 
 ### TODO:
 Check if target is vulnerable to exploit
+Make "prettier" output?
