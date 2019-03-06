@@ -1,17 +1,6 @@
 #!/bin/bash
 # Exploits CVE-2018-15473 to enumerate OpenSSH usernames
 
-# Help menu
-function help() {
-	echo usage: $0 target userfile
-	exit 1
-}
-
-if [ $# -le 1 ]; then
-	help
-	exit 1
-fi
-
 # Menu
 echo -e "\nSSH User Finder v1.2\n"
 echo "Use single username or username list for testing?"
