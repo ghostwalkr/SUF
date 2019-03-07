@@ -23,5 +23,4 @@ To use the script just clone the repository and execute.
 ### Contribute
 If you want to contribute to this project one of the best things you can do is use it. Test it, find issues with it, think of features for it. I'd also appreciate feedback.
 ### TODO:
-- Check if target is vulnerable to exploit
 - Make "prettier" output?
