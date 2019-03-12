@@ -16,7 +16,8 @@ To use the script just clone the repository and execute.
 1. git clone https://github.com/ghostwalkr/SUF.git
 2. chmod -R 744 SUF
 3. cd SUF
-4. ./suf.sh
+4. ./suf.sh for interactive or use -u and -i arguments for userfile and ipfile. example ./suf.sh -u userfile.txt -i ipfile.txt
+The order of the arguments is important.
 
 ![suf demo](https://media.giphy.com/media/1j9frMjJlzbrIpPnp1/giphy.gif)
 
